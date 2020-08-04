@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url(/assets/splash\ image.jpg);
+}
+
+#outside-box {
+    display: flex;
+    height: 100vh ;
+    align-items: center;
+    justify-content: center;
+}
+
+#trans-center-box {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#trans-center-box:hover {
+    background-color: rgba(255, 255, 255, 0.198);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.116)  ;
+}
+
+.middle-box {
+    display: flex;
+    justify-content: center;
+    
+}
+
