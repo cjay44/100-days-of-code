@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 html, body {
@@ -10,6 +11,8 @@ html, body {
 body {
     background-image: url(/assets/splash\ image.jpg);
 }
+
+/* containers */
 
 #outside-box {
     display: flex;
@@ -25,13 +28,66 @@ body {
 }
 
 #trans-center-box:hover {
-    background-color: rgba(255, 255, 255, 0.198);
+    background-color: rgb(0 0 0 / 10%);
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.116)  ;
 }
-
+/* inside trans box */
 .middle-box {
-    display: flex;
+    
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* containers end */
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+/*forms */
+.form {
+    padding: 10px;
+    text-align: center;
+}
+
+.input {
+    width: 300px;
+    padding: 5px;
+    margin: 10px 15px 15px 0px; 
+   background-color: rgba(0, 0, 0, 0);
+   border-bottom: 1px solid grey;
+   border-top: none;
+   border-right: none;
+   border-left: none;
+} 
+
+label {
+    color: whitesmoke;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+.label2 {
+    margin-right: 35px;
+}
+
+.button {
+margin: 20px 50px;
+padding: 10px 30px;
+border-radius: 4px;
+border: none;
+background-color: #4fd728;
+}
+
+button:hover {
+    background-color: cyan;
+    
     
 }
+
+
+
+
+
 
