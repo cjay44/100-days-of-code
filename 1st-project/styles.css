@@ -23,26 +23,24 @@ body {
 
 #trans-center-box {
     width: 500px;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.383);
     height: 300px;
     border-radius: 10px;
 }
 
-#trans-center-box:hover {
-    background-color: rgb(0 0 0 / 10%);
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.116)  ;
-}
+
 /* inside trans box */
-.middle-box {
-    
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+
+
+
+
+
 /* containers end */
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: black;
     text-align: center;
 }
 /*forms */
@@ -54,23 +52,21 @@ h1 {
 .input {
     width: 300px;
     padding: 5px;
-    margin: 10px 15px 15px 0px; 
-   background-color: rgba(0, 0, 0, 0);
-   border-bottom: 1px solid grey;
-   border-top: none;
-   border-right: none;
-   border-left: none;
+    
 } 
 
-label {
-    color: whitesmoke;
-    margin-right: 5px;
-    margin-top: 20px;
+#email-input {
+    margin-bottom: 25px;
+    margin-left: 10px;
 }
 
-.label2 {
-    margin-right: 35px;
+#pass-input {
+    margin-left: 40px;
+    margin-bottom: 30px;
 }
+
+
+
 
 .button {
 margin: 20px 50px;
