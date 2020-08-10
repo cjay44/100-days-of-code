@@ -120,20 +120,70 @@ background-image: url('assets/tech-against-trafficking-hero.jpg');
 }
 
 
-/* Index page content*/ 
+/* columns page content*/ 
 
-.index-columns {
+#index-columns {
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-
 }
 
-.column {
-    background-color: teal;
-    width: 40%;
+.columns {
+    width: 50vw;
     height: 400px;
-    padding: 0px;
-    margin: 0px;
+    margin: 50px;
 }
+
+#right-col {
+    text-align: center;
+}
+
+#right-col h1 {
+    font-family: 'montserrat';
+    font-size: 30px;
+}
+
+#right-col p {
+    font-size: 20px;
+    font-family: 'roboto';
+    text-align: justify;
+    width: 35vw;
+    padding: 20px;
+    margin: auto;
+}
+
+#left-col {
+    border-radius: 20px;
+    background-size: 850px 425px;
+    background-repeat: no-repeat;
+    background-image: url("assets/100daysofcode_OG_banner-06-06.png");
+}
+
+/* responsive coloumns */
+
+@media screen and (max-width: 600px) {
+
+    #index-columns {
+        flex-flow: column wrap; 
+    }
+
+    .columns {
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #left-col {
+        background-size: 650px 300px;
+        background-position: top;
+        border-radius: 0px;
+        height: 300px;
+    }
+
+    #right-col p {
+        width: 95vw;
+    }
+
+    
+}
+
+
